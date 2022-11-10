@@ -1,0 +1,36 @@
+@startuml
+
+autonumber
+
+actor Alice #lightGreen
+participant App #Orange
+participant EuLogin #0065A2
+
+Activate Alice #lightGreen
+Alice -> App: Click on login link
+Activate App #Orange
+Return Redirect to EuLogin
+Deactivate App
+Alice -> EuLogin: Follow the redirection, fill in the login form
+
+Activate EuLogin #0065A2
+EuLogin -> EuLogin: Validate credentials
+
+alt#Gold #LightBlue Valid credentials
+    Return Send redirection response, with a new "ticket" parameter
+    Deactivate EuLogin
+    Alice -> App: Follow the redirection
+    Activate App #Orange
+    App -> EuLogin: Validate the ticket parameter
+    Activate EuLogin #0065A2
+    Return Send a successful authentication response
+    Deactivate EuLogin
+else #Pink Invalid credentials
+    hnote across: Redirect to step 3
+end
+
+App --> Alice: Display user account page
+Deactivate App
+Deactivate Alice
+
+@enduml

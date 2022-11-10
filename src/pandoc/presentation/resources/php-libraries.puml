@@ -1,0 +1,21 @@
+@startmindmap
+
+header
+PHP Authentication libraries at ECPHP
+endheader
+
+
++ PHP
+++ Packages
+-- PHP 7
+-- PHP 8
++++ Libraries
+++++ CAS Lib
+++++ ECAS
++++ Symfony bundles
+++++ CAS
+++++ EU Login
+++++ API Gateway Authentication
+++++ EU Login API Authentication
+
+@endmindmap

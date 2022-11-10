@@ -1,0 +1,78 @@
+@startmindmap
+
+header
+CAS Lib libraries upgrade plan
+endheader
+
++ CAS Packages Versions
+-- Symfony 5.4
+--- PHP 7.2.5
+--- PHP 7.4
+--- PHP 8.0
+--- PHP 8.1
+-- Symfony 6
+--- PHP 8.0.2
+--- PHP 8.1
+-- Symfony 6.1
+--- PHP 8.1
+++ Symfony 5.4
+***[#lightgreen]:CAS Lib
+<code>
+^1
+</code>;
+****[#lightgreen]:ECAS
+<code>
+^2.2
+</code>;
+****[#lightgreen]:CAS-Bundle
+<code>
+^2.4
+</code>;
+*****[#lightgreen]:EU-Login-Bundle
+<code>
+^2.4
+</code>;
+
+++ Symfony 6
+***[#lightgreen]:CAS Lib
+<code>
+^1
+</code>;
+****[#lightgreen]:ECAS
+<code>
+^2.3
+</code>;
+****[#lightgreen]:CAS-Bundle
+<code>
+^2.5
+</code>;
+*****[#lightgreen]:EU-Login-Bundle
+<code>
+^2.5
+</code>;
+
+++ Symfony 6.1
+***[#lightgreen]:CAS Lib
+<code>
+^2
+</code>;
+****[#lightgreen]:ECAS
+<code>
+^3
+</code>;
+****[#orange]:CAS-Bundle
+<code>
+^3
+</code>;
+*****[#orange]:EU-Login-Bundle
+<code>
+^3
+</code>;
+
+legend right
+    | Color   | Status |
+    |<#90EE90>| Done |
+    |<#FF0000>| Not yet done |
+    |<#FFA500>| Work in progress |
+endlegend
+@endmindmap

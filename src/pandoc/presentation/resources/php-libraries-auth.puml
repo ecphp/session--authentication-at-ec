@@ -1,0 +1,20 @@
+@startmindmap
+
+header
+PHP Authentication libraries at ECPHP
+endheader
+
+
++ PHP
+-- PHP 7
+-- PHP 8
+**:CAS Lib
+ECAS;
+***:CAS Bundle
+EU Login Bundle;
+**:JWT
+OpenID Connect;
+***:API Gateway Authentication
+EU Login API Authentication;
+
+@endmindmap

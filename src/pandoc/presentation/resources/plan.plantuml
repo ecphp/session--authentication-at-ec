@@ -1,0 +1,15 @@
+@startmindmap
+* Session "Authentication at EC"
+** Introduction
+*** Who we are
+*** Our repositories
+** Authentication
+*** Protocols
+** PHP
+*** History
+*** Libraries / Bundles / Packages
+*** PHP Fig
+*** PHP and Authentication
+*** Supported versions (PHP/Symfony)
+** Open questions
+@endmindmap

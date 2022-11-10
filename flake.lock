@@ -1,0 +1,282 @@
+{
+  "nodes": {
+    "ci-detector": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1669616789,
+        "narHash": "sha256-kOen4KfQc71wW7n/rWXi5v2mpOdUoo+9CHexGCr8wsk=",
+        "owner": "loophp",
+        "repo": "ci-detector",
+        "rev": "69ff9906b8c88257bd2078733827dc1ddb390e06",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loophp",
+        "repo": "ci-detector",
+        "type": "github"
+      }
+    },
+    "ci-detector_2": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1669616789,
+        "narHash": "sha256-kOen4KfQc71wW7n/rWXi5v2mpOdUoo+9CHexGCr8wsk=",
+        "owner": "loophp",
+        "repo": "ci-detector",
+        "rev": "69ff9906b8c88257bd2078733827dc1ddb390e06",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loophp",
+        "repo": "ci-detector",
+        "type": "github"
+      }
+    },
+    "ec-fonts": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1669654642,
+        "narHash": "sha256-are9ZFRq6/61+OcSlEfkFCuaLoyUOQ2RlGrqAR8HikM=",
+        "ref": "refs/heads/main",
+        "rev": "8399ada3b98a3eadd778a5cfc8743530aa5951ba",
+        "revCount": 12,
+        "type": "git",
+        "url": "https://code.europa.eu/pol/ec-fonts/"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://code.europa.eu/pol/ec-fonts/"
+      }
+    },
+    "ec-fonts_2": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1669654642,
+        "narHash": "sha256-are9ZFRq6/61+OcSlEfkFCuaLoyUOQ2RlGrqAR8HikM=",
+        "ref": "refs/heads/main",
+        "rev": "8399ada3b98a3eadd778a5cfc8743530aa5951ba",
+        "revCount": 12,
+        "type": "git",
+        "url": "https://code.europa.eu/pol/ec-fonts/"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://code.europa.eu/pol/ec-fonts/"
+      }
+    },
+    "ec-theme": {
+      "inputs": {
+        "ci-detector": "ci-detector_2",
+        "ec-fonts": "ec-fonts_2",
+        "flake-utils": "flake-utils_3",
+        "nix-filter": "nix-filter",
+        "nixpkgs": "nixpkgs_5"
+      },
+      "locked": {
+        "lastModified": 1669655867,
+        "narHash": "sha256-tEy41fem07FmU9OfK2w1xMRX3JprUpDb1xC4YTBSuFU=",
+        "ref": "refs/heads/master",
+        "rev": "abc457237ea969a317f1ec55ab0a6cf784cb50f6",
+        "revCount": 88,
+        "type": "git",
+        "url": "https://code.europa.eu/pol/european-commission-latex-beamer-theme/"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://code.europa.eu/pol/european-commission-latex-beamer-theme/"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_3": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_4": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nix-filter": {
+      "locked": {
+        "lastModified": 1666547822,
+        "narHash": "sha256-razwnAybPHyoAyhkKCwXdxihIqJi1G6e1XP4FQOJTEs=",
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "rev": "1a3b735e13e90a8d2fd5629f2f8363bd7ffbbec7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1669535121,
+        "narHash": "sha256-koZLM7oWVGrjyHnYDo7/w5qlmUn9UZUKSFNfmIjueE8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b45ec953794bb07922f0468152ad1ebaf8a084b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1669535121,
+        "narHash": "sha256-koZLM7oWVGrjyHnYDo7/w5qlmUn9UZUKSFNfmIjueE8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b45ec953794bb07922f0468152ad1ebaf8a084b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1669535121,
+        "narHash": "sha256-koZLM7oWVGrjyHnYDo7/w5qlmUn9UZUKSFNfmIjueE8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b45ec953794bb07922f0468152ad1ebaf8a084b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1669535121,
+        "narHash": "sha256-koZLM7oWVGrjyHnYDo7/w5qlmUn9UZUKSFNfmIjueE8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b45ec953794bb07922f0468152ad1ebaf8a084b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_5": {
+      "locked": {
+        "lastModified": 1669597967,
+        "narHash": "sha256-R+2NaDkXsYkOpFOhmVR8jBZ77Pq55Z6ilaqwFLLn000=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "be9e3762e719211368d186f547f847737baad720",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
+        "lastModified": 1669629736,
+        "narHash": "sha256-Y1uUnBtVxwTNo1xDLBrRaaWNfOsiRKrwql/vPjuKyUI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b0f8c96b9ef5998f3985c34c90cfd21f1ba8a1ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ci-detector": "ci-detector",
+        "ec-fonts": "ec-fonts",
+        "ec-theme": "ec-theme",
+        "flake-utils": "flake-utils_4",
+        "nixpkgs": "nixpkgs_6"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
