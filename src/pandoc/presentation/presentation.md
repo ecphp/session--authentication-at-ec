@@ -7,7 +7,7 @@ date: "December 2022"
 documentclass: "beamer"
 beamer: true
 theme: "ec"
-notes: true
+notes: false
 toc: false
 ---
 
