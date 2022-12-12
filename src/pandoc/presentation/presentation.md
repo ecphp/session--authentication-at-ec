@@ -9,7 +9,6 @@ beamer: true
 theme: "ec"
 notes: true
 toc: false
-# mainfont: "EC Square Sans Pro Regular"
 ---
 
 # Introduction
