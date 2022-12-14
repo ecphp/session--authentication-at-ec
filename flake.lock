@@ -83,11 +83,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1671015539,
-        "narHash": "sha256-8kWwhl5/doSel8zD7RCzd9p5r8BhF6eBJmx41xeg9UU=",
+        "lastModified": 1671025372,
+        "narHash": "sha256-6jCRTmFu6hxV0wm7acmHrQO/TAiQxECqoodNi3doCSU=",
         "ref": "refs/heads/master",
-        "rev": "706b5562de3ff2c95345904bf70a7754a41b3650",
-        "revCount": 101,
+        "rev": "bcfad3934599ff95434ddb4c9fa3bc5b6c9a4fcd",
+        "revCount": 102,
         "type": "git",
         "url": "https://code.europa.eu/pol/european-commission-latex-beamer-theme/"
       },
@@ -253,11 +253,11 @@
     },
     "nixpkgs_6": {
       "locked": {
-        "lastModified": 1670918062,
-        "narHash": "sha256-iOhkyBYUU9Jfkk0lvI4ahpjyrTsLXj9uyJWwmjKg+gg=",
+        "lastModified": 1671007632,
+        "narHash": "sha256-1uxNTBOa0SMypJKOWeUqrz2VfmwQ1hVgWckPdgDNip4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "84575b0bd882be979516f4fecfe4d7c8de8f6a92",
+        "rev": "b9a0cd40ede905f554399f3f165895dccfd35f3b",
         "type": "github"
       },
       "original": {
